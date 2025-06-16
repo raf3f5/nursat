@@ -1,2 +1,73 @@
-# nursat
-I love you
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Nursat 💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffe6f0, #ffc2d1);
+      color: #333;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #ff4d6d;
+    }
+    p {
+      font-size: 1.3rem;
+      margin: 1.5rem 2rem;
+      line-height: 1.6;
+    }
+    button {
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border: none;
+      background-color: #ff4d6d;
+      color: white;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    button:hover {
+      background-color: #e63956;
+    }
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hey Nursat 💖</h1>
+  <p>
+    From the moment you slept at my shoulders in rickshaw, something in me shifted.<br>
+    You became my favorite Kaathgolap, my peace, my reason to smile, my Ocean of love, my kinderjoy, my flower, my Queen.<br><br>
+    So Nursat… I have just one question to ask you:
+  </p>
+  <button onclick="propose()">Will You Be Mine Forever?</button>
+
+  <audio autoplay loop>
+    <source src="https://dl.sndup.net/hcx2/I%20Love%20You%20So.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    function propose() {
+      document.body.innerHTML = `
+        <h1>She said YES! 💍💕</h1>
+        <p>Nursat, I love you endlessly… You’re my forever now ❤️</p>
+      `;
+    }
+  </script>
+</body>
+</html>
+
